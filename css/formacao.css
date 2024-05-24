@@ -148,8 +148,28 @@
   .formacao-texto {
     font-size: 1.25rem;
   }
+  .formacao-extra h3 {
+    display: inline-block;
+  }
   .formacao-extra h3::before {
-    position: initial;
-    margin-bottom: 10px;
+    display: none;
+    /* position: initial;
+    margin-bottom: 10px; */
+  }
+  .formacao-extra h3::after {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: -36px;
+    top: -4px;
+  }
+  .cursos h3::after {
+    background: url("../img/cursos.svg") no-repeat center;
+  }
+
+  .idiomas h3::after {
+    background: url("../img/idiomas.svg") no-repeat center;
   }
 }
