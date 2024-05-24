@@ -46,3 +46,9 @@
     font-size: 1.5rem;
   }
 }
+
+@media (width <= 450px) {
+  .footer-contato li {
+    font-size: 1.1rem;
+  }
+}
