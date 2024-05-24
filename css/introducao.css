@@ -51,6 +51,9 @@
     height: 10px;
     left: 0px;
   }
+  .introducao p {
+    max-width: 15ch;
+  }
 }
 
 @media (width <= 450px) {
