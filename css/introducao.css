@@ -32,6 +32,10 @@
   color: #525252;
 }
 
+.cover img {
+  border-radius: 6px;
+}
+
 @media (width <= 1000px) {
   .introducao h1 {
     font-size: 3rem;
