@@ -90,6 +90,29 @@
   color: #141414;
 }
 
+#experiencia-github {
+  font-size: 1.25rem;
+  color: #525252;
+}
+
+#experiencia-github {
+  position: relative;
+}
+
+#experiencia-github::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 2px;
+  background-color: #525252;
+  position: absolute;
+  transition: 0.5s;
+}
+
+#experiencia-github:hover::after {
+  width: 100%;
+}
+
 @media (width <= 800px) {
   .experiencia {
     grid-template-columns: 1fr;
