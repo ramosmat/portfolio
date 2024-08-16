@@ -41,7 +41,7 @@
 }
 
 .empresa::before {
-  content: "";
+  content: '';
   display: block;
   width: 4px;
   height: 20px;
@@ -51,6 +51,12 @@
   top: 20px;
   border-radius: 1px;
 }
+
+.empresa:hover {
+  border-color: #8dea19;
+  box-shadow: 0 0 2px #8dea19;
+}
+/* #8DEA19 */
 
 .empresa-ano {
   position: absolute;
@@ -100,7 +106,7 @@
 }
 
 #experiencia-github::after {
-  content: "";
+  content: '';
   display: block;
   width: 0%;
   height: 2px;
@@ -131,7 +137,7 @@
     text-align: left;
   }
   .empresa-ano::before {
-    content: "Ano: ";
+    content: 'Ano: ';
   }
 }
 
